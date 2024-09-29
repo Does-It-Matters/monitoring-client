@@ -1,0 +1,10 @@
+
+# exercise
+src/main/scala/exercise/
+
+/project/project
+/project/target
+
+/.bsp/
+/.idea/
+/target/
