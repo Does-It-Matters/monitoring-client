@@ -3,10 +3,9 @@ ThisBuild / scalaVersion := "2.13.15"
 
 lazy val root = (project in file("."))
   .settings(
-      name := "monitoring-client",
-      idePackagePrefix := Some("monitoring.client"),
-      libraryDependencies ++= Seq(
-            "org.scala-lang.modules" %% "scala-swing" % "2.1.1",
-            "org.scala-lang.modules" %% "scala-parser-combinators" % "2.1.1"
-      )
-)
+    name := "monitoring-client",
+    idePackagePrefix := Some("monitoring.client"),
+    libraryDependencies ++= Seq(
+      "org.scala-lang.modules" %% "scala-parser-combinators" % "2.1.1"
+    )
+  )
