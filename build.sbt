@@ -10,5 +10,11 @@ lazy val root = (project in file("."))
       "org.openjfx" % "javafx-controls" % "17.0.2",
       "org.openjfx" % "javafx-graphics" % "17.0.2",
       "org.openjfx" % "javafx-base" % "17.0.2"
+    ),
+    Compile / javacOptions ++= Seq(
+      "--add-modules", "javafx.controls,javafx.graphics,javafx.base"
+    ),
+    run / javaOptions ++= Seq(
+      "--add-modules", "javafx.controls,javafx.graphics,javafx.base"
     )
   )
