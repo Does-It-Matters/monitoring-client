@@ -9,6 +9,7 @@ lazy val root = (project in file("."))
       "org.scala-lang.modules" %% "scala-parser-combinators" % "2.1.1",
       "org.openjfx" % "javafx-controls" % "17.0.2",
       "org.openjfx" % "javafx-graphics" % "17.0.2",
-      "org.openjfx" % "javafx-base" % "17.0.2"
+      "org.openjfx" % "javafx-base" % "17.0.2",
+      "org.scalatest" %% "scalatest" % "3.2.18" % Test
     )
   )
